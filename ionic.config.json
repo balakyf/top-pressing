@@ -1,0 +1,7 @@
+{
+  "name": "top-pressing",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
