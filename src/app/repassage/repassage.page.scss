@@ -1,0 +1,17 @@
+
+.carte {
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+    ion-card {
+        padding: 0 !important;
+        width: 170px;
+    }
+    ion-img {
+        height: 70px;
+    }
+
+}

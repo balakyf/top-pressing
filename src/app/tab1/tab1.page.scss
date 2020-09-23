@@ -4,13 +4,29 @@
 }
 
 .milieu {
-    text-align: center;
-    ion-img {
-        height: 75px;
-    }
-    p {
-        font-size: 20px;
-    }
+    ion-card {
+        position: relative;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+      }
+
+      .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: rgb(0, 0, 0);
+      }
 }
 .carte {
     background-color: #6dd5ed;

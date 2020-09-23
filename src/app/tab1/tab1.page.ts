@@ -9,8 +9,9 @@ import { Router } from '@angular/router';
 export class Tab1Page {
 
   slideOpts = {
-    initialSlide: 1,
-    speed: 400
+    initialSlide: 0,
+    slidesPerView: 1,
+    autoplay: true
   };
 
   constructor(public router: Router) {}

@@ -1,7 +1,8 @@
 {
   "name": "top-pressing",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
